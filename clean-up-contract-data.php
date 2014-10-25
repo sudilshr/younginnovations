@@ -44,7 +44,7 @@
 	}
 
 
-	$ffile = fopen('final.csv', 'w');//output file set here
+	$ffile = fopen('final.csv', 'w');
 
 	foreach ($line as $fields) {
 		fputcsv($ffile, $fields);
